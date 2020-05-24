@@ -43,7 +43,6 @@
 </header>
 <br>
 <br>
-
 <body>
     <div class="portfolio">
         <div class="container">
@@ -53,45 +52,107 @@
                 <hr class="horizontal-line" style="border-width:4px">
                 <br>
                 <div class="row">
+                    <!--Card 1-->
                     <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
                         <div class="card" style="width: 18rem;">
                         <img src="Assets/Images/code.jpg" class="card-img-top img-fluid" alt="monitor with code">
-                            <a href="#" class="btn btn-info button">COVID-19 Tracker</a>
+                            <button type="button" class="btn btn-info button" data-toggle="modal" data-target="#covid">COVID-19 Tracker</button>
                       </div>
                     </div>
+                    <!--Card 2-->
                     <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
                         <div class="card" style="width: 18rem;">
                         <img src="Assets/Images/earth.jpg" class="card-img-top img-fluid" alt="earth at night">
-                            <a href="#" class="btn btn-info button">Weather Dashboard</a>
-                      </div>
+                            <button type="button" class="btn btn-info button" data-toggle="modal" data-target="#weather">Weather Dashboard</button>
                     </div>
+                    </div>
+                    <!--Card 3-->
                     <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
                         <div class="card" style="width: 18rem;">
                         <img src="Assets/Images/water.jpg" class="card-img-top img-fluid" alt="water surface">
-                            <a href="#" class="btn btn-info button">Go somewhere</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
-                        <div class="card" style="width: 18rem;">
-                        <img src="Assets/Images/globe.jpg" class="card-img-top img-fluid" alt="static globe">
-                            <a href="#" class="btn btn-info button">Go somewhere</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
-                        <div class="card" style="width: 18rem;">
-                        <img src="Assets/Images/galaxy.jpg" class="card-img-top img-fluid" alt="galaxy">
-                            <a href="#" class="btn btn-info button">Go somewhere</a>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
-                        <div class="card" style="width: 18rem;">
-                        <img src="Assets/Images/code.jpg" class="card-img-top img-fluid" alt="monitor with code">
-                            <a href="#" class="btn btn-info button">Go somewhere</a>
+                            <button href="button" class="btn btn-info button" data-toggle="modal" data-target="#password">Password Generator</button>
                       </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Modal 1 -->
+        <div class="modal fade" id="covid" tabindex="-1" role="dialog" aria-labelledby="covid" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+             <h5 class="modal-title" id="covid">Description</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+             </button>
+            </div>
+         <div class="modal-body">
+            The COVID-19 Tracker is an application that assists organizations across NH in administering 
+            their COVID-19 screenings and also provides employers as well as employees with important resources,
+            communications, and data surrounding the pandemic.
+            </div>
+            <div class="modal-footer">
+                <a href="https://team-1-unh-bootcamp.github.io/Group-Project-1/index.html" target="_blank" 
+                type="button" class="btn btn-info">Visit the app</a>
+                <a href="https://github.com/Team-1-UNH-Bootcamp/Group-Project-1" target="_blank" 
+                type="button" class="btn btn-info">View code repository</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         </div>
+        </div>
+        </div>
+        </div>
+        <!-- Modal 2 -->
+        <div class="modal fade" id="weather" tabindex="-1" role="dialog" aria-labelledby="weather" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="weather">Description</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+            <div class="modal-body">
+            The Weather Dashboard is an application that retrieves data from the OpenWeather API and allows for 
+            user specified city searches that returns the weather for the current day in addition to a 5 day forecast. 
+            The city search is logged and retained so the user is able to view the cities they have searched. 
+            The application also displays icons representing the weather for enhanced visual presentation.
+            </div>
+            <div class="modal-footer">
+                <a href="https://sbonias.github.io/weather-dashboard/" target="_blank" 
+                type="button" class="btn btn-info">Visit the app</a>
+                <a href="https://github.com/sbonias/weather-dashboard" target="_blank" 
+                type="button" class="btn btn-info">View code repository</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+         </div>
+        </div>
+        </div>
+        <!-- Modal 3 -->
+        <div class="modal fade" id="password" tabindex="-1" role="dialog" aria-labelledby="password" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="password">Description</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+            <div class="modal-body">
+            The Password Generator is an application that generates a random password based on user-selected criteria. 
+            This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript. 
+            It also features a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+            </div>
+            <div class="modal-footer">
+                <a href="https://sbonias.github.io/password-generator/" target="_blank" 
+                type="button" class="btn btn-info">Visit the app</a>
+                <a href="https://github.com/sbonias/password-generator" target="_blank" 
+                type="button" class="btn btn-info">View code repository</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+         </div>
+        </div>
+        </div>
+    </div>
         <!-- Bootstraps JS CDN reference -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
