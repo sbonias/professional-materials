@@ -1,8 +1,15 @@
-# professional-materials
+# Professional Materials
 
-updated portfolio page and professional materials to build toward being employer competitive.
+## Description
+
+Updated my personal portfolio that is hosted on Github to include my top 3 projects thus far. I incorporated the COVID-19 Tracker from Project 1, the Weather Dashboard, and the Password Generator to my portolio page. I also updated the portfolio pages code to include modals in order to present each application in a more clear and concise manner that includes: an application description, the deployed link, and the github repository. Additionally, I've updated my sticky footer to include links to my personal github profile, linkedin site, as well as my resume.
+
+## Deployed Application
 
 - https://sbonias.github.io/professional-materials/
+
 - https://github.com/sbonias/professional-materials
-- https://github.com/sbonias/
--
+
+## Visual Representation
+
+https://drive.google.com/file/d/1BJFHHJzWvm74pxc5NIK_KibPn9-BBX4m/view?usp=sharing
