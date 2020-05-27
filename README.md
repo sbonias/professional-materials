@@ -12,4 +12,4 @@ Updated my personal portfolio that is hosted on Github to include my top 3 proje
 
 ## Visual Representation
 
-https://drive.google.com/file/d/1BJFHHJzWvm74pxc5NIK_KibPn9-BBX4m/view?usp=sharing
+https://drive.google.com/file/d/1pTpNNH9wwPVrfybAzZrWi6KQ7hX0syFk/view
