@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="style.css">
     <!--Font Awesome CDN Link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Google Fonts CDN Links -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <!-- Header contains modified Bootstrap Navbar -->
 <header>
@@ -27,14 +29,14 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <!--"&nbsp" forces html to add an extra space-->
-                    <a class="nav-link" href="index.html">About&nbsp;|<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" style="color:darkslategray" href="index.html">About&nbsp;|<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <!--"&nbsp" forces html to add an extra space-->
-                    <a class="nav-link" href="portfolio.html">Portfolio&nbsp;|</a>
+                    <a class="nav-link" style="color:darkslategray" href="portfolio.html">Portfolio&nbsp;|</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" style="color:darkslategray" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -54,24 +56,31 @@
                     <!--Card 1-->
                     <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
                         <div class="card" style="width: 18rem;">
-                        <img src="Assets/Images/code.jpg" class="card-img-top img-fluid" alt="monitor with code">
-                            <button type="button" class="btn btn-info button" data-toggle="modal" data-target="#covid">COVID-19 Tracker</button>
-                      </div>
+                        <img src="Assets/Images/virus.jpg" class="card-img-top img-fluid" alt="monitor with code" style="height:190px">
+                        <button type="button" class="btn btn-info button" data-toggle="modal" data-target="#covid">COVID-19 Tracker</button>
+                        </div>
                     </div>
                     <!--Card 2-->
                     <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
                         <div class="card" style="width: 18rem;">
                         <img src="Assets/Images/earth.jpg" class="card-img-top img-fluid" alt="earth at night">
-                            <button type="button" class="btn btn-info button" data-toggle="modal" data-target="#weather">Weather Dashboard</button>
-                    </div>
+                        <button type="button" class="btn btn-info button" data-toggle="modal" data-target="#weather">Weather Dashboard</button>
+                        </div>
                     </div>
                     <!--Card 3-->
                     <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">                    
                         <div class="card" style="width: 18rem;">
-                        <img src="Assets/Images/water.jpg" class="card-img-top img-fluid" alt="water surface">
-                            <button href="button" class="btn btn-info button" data-toggle="modal" data-target="#password">Password Generator</button>
-                      </div>
+                        <img src="Assets/Images/code.jpg" class="card-img-top img-fluid" alt="water surface">
+                        <button href="button" class="btn btn-info button" data-toggle="modal" data-target="#password">Password Generator</button>
+                        </div>
                     </div>
+                    <!--Card 4-->
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="margin-bottom: 10px;">                    
+                        <div class="card" style="width: 18rem;">
+                        <img src="Assets/Images/reading.jpg" class="card-img-top img-fluid" alt="child reading a book">
+                        <button type="button" class="btn btn-info button" data-toggle="modal" data-target="#kidbooktivist">Kid Booktivist</button>
+                        </div>
+                   </div>
                 </div>
             </div>
         </div>
@@ -151,6 +160,32 @@
          </div>
         </div>
         </div>
+        <!-- Modal 4 -->
+        <div class="modal fade" id="kidbooktivist" tabindex="-1" role="dialog" aria-labelledby="kidbooktivist" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="kidbooktivist">Description</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                <div class="modal-body">
+                Kid Booktivist is an application for parents who are searching for new ways to provide their children with an important
+                perspective on the world around them. This is achieved via a library containing children's literature that has diverse representation and
+                positive social messages focused around activism. Users are able to sign up, login, and add books to a myLibrary feature, as well as add
+                new books to the app via its built-in admin approval process.
+                </div>
+                <div class="modal-footer">
+                    <a href="http://www.kidbooktivist.com/" target="_blank" 
+                    type="button" class="btn btn-info">Visit the app</a>
+                    <a href="https://github.com/sbonias/Booktivist" target="_blank" 
+                    type="button" class="btn btn-info">View code repository</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+             </div>
+            </div>
+            </div>
     </div>
         <!-- Bootstraps JS CDN reference -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -186,7 +221,7 @@
     <!-- divider -->
     <span class="text-white"> &nbsp;|&nbsp; </span>
     <!-- resume link -->
-    <a href="https://drive.google.com/open?id=1b3iY7t4gwNM72Q72F7k-V26yMWM-nfDPT5iIme7m5Qk" target="_blank">
+    <a href="https://docs.google.com/document/d/160xYP5v_EW6ak_HxVfU16ciec7NTnsB6qZyULshmMm0/edit?usp=sharing" target="_blank">
         <span class="text-white">Resume &nbsp;
             <i class="text-white fa fa-book fa-md"></i>
         </span>
