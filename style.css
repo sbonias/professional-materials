@@ -4,6 +4,10 @@ header {
   margin-top: 0px;
 }
 
+h1 {
+  font-size: 30px;
+}
+
 body {
   background-image: url('Assets/Images/wallpaper.jpg');
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
